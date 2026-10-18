@@ -1,0 +1,32 @@
+# KiCad: preferencias locales, bloqueos y archivos temporales
+*.kicad_prl
+~*.lck
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+fp-info-cache
+
+# KiCad: copias de seguridad e historial local
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-save.pro
+*-save.kicad_pcb
+.history/
+
+# Archivos de trabajo y cache de Python
+/tmp/
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Conservar en Git los archivos .kicad_pro, .kicad_sch y .kicad_pcb,
+# las bibliotecas propias, docs/ y los entregables de output/.
